@@ -1,0 +1,30 @@
+Testing Accuracy for FE_tar_7_1 for student model: % acc =  91.3
+=============================================
+
+Testing Accuracy for FE_tar_7_2 for student model: % acc =  92.7
+=============================================
+
+Testing Accuracy for FE_tar_7_3 for student model: % acc =  93.3
+=============================================
+
+Testing Accuracy for FE_tar_14_1 for student model: % acc =  93.3
+=============================================
+
+Testing Accuracy for FE_tar_14_2 for student model: % acc =  92.2
+=============================================
+
+Testing Accuracy for FE_tar_14_3 for student model: % acc =  94.5
+=============================================
+
+Testing Accuracy for FE_tar_21_1 for student model: % acc =  93.2
+=============================================
+
+Testing Accuracy for FE_tar_21_2 for student model: % acc =  91.3
+=============================================
+
+Testing Accuracy for FE_tar_21_3 for student model: % acc =  94.6
+=============================================
+
+Testing Accuracy for ims_tar for student model: % acc =  92.2
+=============================================
+

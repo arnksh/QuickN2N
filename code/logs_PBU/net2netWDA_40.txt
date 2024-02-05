@@ -1,0 +1,30 @@
+
+
+*********Tar3**********
+Testing Accuracy for tarData_1 for student model: % acc =  98.3
+=============================================
+
+Testing Accuracy for tarData_2 for student model: % acc =  97.9
+=============================================
+
+Testing Accuracy for tarData_3 for student model: % acc =  96.7
+=============================================
+
+Testing Accuracy for tarData_4 for student model: % acc =  98.3
+=============================================
+
+
+
+*********Tar4**********
+Testing Accuracy for tarData_1 for student model: % acc =  98.3
+=============================================
+
+Testing Accuracy for tarData_2 for student model: % acc =  96.2
+=============================================
+
+Testing Accuracy for tarData_3 for student model: % acc =  96.2
+=============================================
+
+Testing Accuracy for tarData_4 for student model: % acc =  97.5
+=============================================
+
