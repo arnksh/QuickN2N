@@ -1,0 +1,54 @@
+
+
+*********Tar3**********
+Maximum accuracy and AUC for tarData_1
+                  Av. acc.         Av. auc.
+Softmax           97.92              -- 
+=============================================
+
+
+Maximum accuracy and AUC for tarData_2
+                  Av. acc.         Av. auc.
+Softmax           94.58              -- 
+=============================================
+
+
+Maximum accuracy and AUC for tarData_3
+                  Av. acc.         Av. auc.
+Softmax           92.92              -- 
+=============================================
+
+
+Maximum accuracy and AUC for tarData_4
+                  Av. acc.         Av. auc.
+Softmax           93.75              -- 
+=============================================
+
+
+
+
+*********Tar4**********
+Maximum accuracy and AUC for tarData_1
+                  Av. acc.         Av. auc.
+Softmax           99.58              -- 
+=============================================
+
+
+Maximum accuracy and AUC for tarData_2
+                  Av. acc.         Av. auc.
+Softmax           97.92              -- 
+=============================================
+
+
+Maximum accuracy and AUC for tarData_3
+                  Av. acc.         Av. auc.
+Softmax           94.17              -- 
+=============================================
+
+
+Maximum accuracy and AUC for tarData_4
+                  Av. acc.         Av. auc.
+Softmax           93.33              -- 
+=============================================
+
+

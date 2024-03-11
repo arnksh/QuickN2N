@@ -1,0 +1,12 @@
+Testing Accuracy for h_b_30hz_30 for student model: % acc =  95.6
+=============================================
+
+Testing Accuracy for h_b_30hz_50 for student model: % acc =  95.6
+=============================================
+
+Testing Accuracy for h_b_30hz_70 for student model: % acc =  96.2
+=============================================
+
+Testing Accuracy for h_b_30hz_90 for student model: % acc =  97.5
+=============================================
+

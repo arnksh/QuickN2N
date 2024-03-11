@@ -1,0 +1,3 @@
+Testing Accuracy for ims_tar for student model: % acc =  93.8
+=============================================
+

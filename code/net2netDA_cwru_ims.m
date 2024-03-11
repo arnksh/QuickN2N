@@ -1,28 +1,31 @@
 clear all; clc
-addpath ./ReqFunc/;
+addpath ./ReqFunc/;                addpath ('./ReqFunc/softmax')
+addpath ./ReqFunc/minFunc/;        addpath ('./ReqFunc/starter')
+addpath ('./ReqFunc/stl_exercise')
 %%
+para.adapt  = 0; %Choose 0 for DA and -1 for WDA
 para.nh = [70, 30, 20];   
 para.epochs_DNN =500;          
 para.epochs_fineTune = 100;
 para.mini_batch_size =10;     
 para.sparsityParam = 0.1;   
-para.lambda = 0.05;          % weight decay parameter, regularization
-para.beta = 0.8;             % k-l divergence coefficient
+para.lambda = 0.05;         
+para.beta = 0.8;            
 para.eta=1.5;
-options.Method = 'lbfgs';    %options for pre train AEs
+options.Method = 'lbfgs';   
 options.maxIter =4;
 options.display = 'on';
 kthLayer=2;          %The layer to be factorized to make deeper
 add_nodes={[2,20]};  %first entry is the layer no and 2nd the no of nodes to be added.
-
 %%
-dataFolder = 'CWRU_40';
+dataFolder = 'CWRU_400_1';
 srcData  = 'src_7_0';
 tarData = {'FE_tar_7_1', 'FE_tar_7_2', 'FE_tar_7_3', 'FE_tar_14_1', 'FE_tar_14_2',....
          'FE_tar_14_3', 'FE_tar_21_1', 'FE_tar_21_2', 'FE_tar_21_3', 'ims_tar'};
-fileID = fopen('./logs_CWRU/net2net_40.txt','w');
+fileID = fopen('./logs_CWRU/net2net_400_ims_wda.txt','w');
 
-row = 17; %6 for CWRU_400 AND 17 for CWRU_40
+row = 6; %6 for CWRU_400 AND 17 for CWRU_40
+% row = 15; %15 for CWRU_400 AND 26 for CWRU_40
 %% Network transformation and fine tune
 for i = 1:10
     load(['../' dataFolder '/' tarData{i}], 'Y');
@@ -44,10 +47,10 @@ for i = 1:10
     
     fprintf('Testing Accuracy for %s: %% acc =  %3.1f\n', tarData{i}, mean(acc));
     
-    xrange = sprintf('K%d',row);
+    xrange = sprintf('J%d',row);
     xlswrite('resultN2N.xlsx',mean(acc),1,xrange)
     row =row+1;
-    % save(['./logs_CWRU/studentNet_' tarData{i} '.mat'], 'net')
+    save(['./logs_CWRU/studentNet_' tarData{i} '.mat'], 'net')
 
     fprintf(fileID, 'Testing Accuracy for %s for student model: %% acc =  %3.1f\n', tarData{i}, mean(acc));
     fprintf( fileID,'=============================================\n\n');

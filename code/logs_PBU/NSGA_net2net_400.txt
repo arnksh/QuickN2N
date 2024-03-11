@@ -1,0 +1,14 @@
+
+
+*********Tar3**********
+Accuracy of best model for tarData_1: 98.75
+Accuracy of best model for tarData_2: 87.08
+Accuracy of best model for tarData_3: 92.08
+Accuracy of best model for tarData_4: 80.83
+
+
+*********Tar4**********
+Accuracy of best model for tarData_1: 99.58
+Accuracy of best model for tarData_2: 95.00
+Accuracy of best model for tarData_3: 95.00
+Accuracy of best model for tarData_4: 93.33

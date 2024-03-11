@@ -1,0 +1,36 @@
+
+
+*****Target data: FE_tar_7_1*****
+Accuracy of best model for FE_tar_7_1: 99.06
+
+
+*****Target data: FE_tar_7_2*****
+Accuracy of best model for FE_tar_7_2: 95.62
+
+
+*****Target data: FE_tar_7_3*****
+Accuracy of best model for FE_tar_7_3: 99.69
+
+
+*****Target data: FE_tar_14_1*****
+Accuracy of best model for FE_tar_14_1: 99.06
+
+
+*****Target data: FE_tar_14_2*****
+Accuracy of best model for FE_tar_14_2: 91.56
+
+
+*****Target data: FE_tar_14_3*****
+Accuracy of best model for FE_tar_14_3: 98.12
+
+
+*****Target data: FE_tar_21_1*****
+Accuracy of best model for FE_tar_21_1: 84.06
+
+
+*****Target data: FE_tar_21_2*****
+Accuracy of best model for FE_tar_21_2: 83.12
+
+
+*****Target data: FE_tar_21_3*****
+Accuracy of best model for FE_tar_21_3: 82.50

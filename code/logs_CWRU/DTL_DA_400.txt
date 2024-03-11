@@ -1,0 +1,81 @@
+
+
+*********Tar1**********
+Maximum accuracy and AUC for FE_tar_7_1
+                  Av. acc.         Av. auc.
+Softmax           95.94              -- 
+============================================
+
+
+
+
+*********Tar2**********
+Maximum accuracy and AUC for FE_tar_7_2
+                  Av. acc.         Av. auc.
+Softmax           93.12              -- 
+============================================
+
+
+
+
+*********Tar3**********
+Maximum accuracy and AUC for FE_tar_7_3
+                  Av. acc.         Av. auc.
+Softmax           98.44              -- 
+============================================
+
+
+
+
+*********Tar4**********
+Maximum accuracy and AUC for FE_tar_14_1
+                  Av. acc.         Av. auc.
+Softmax           97.19              -- 
+============================================
+
+
+
+
+*********Tar5**********
+Maximum accuracy and AUC for FE_tar_14_2
+                  Av. acc.         Av. auc.
+Softmax           89.69              -- 
+============================================
+
+
+
+
+*********Tar6**********
+Maximum accuracy and AUC for FE_tar_14_3
+                  Av. acc.         Av. auc.
+Softmax           95.62              -- 
+============================================
+
+
+
+
+*********Tar7**********
+Maximum accuracy and AUC for FE_tar_21_1
+                  Av. acc.         Av. auc.
+Softmax           80.62              -- 
+============================================
+
+
+
+
+*********Tar8**********
+Maximum accuracy and AUC for FE_tar_21_2
+                  Av. acc.         Av. auc.
+Softmax           84.69              -- 
+============================================
+
+
+
+
+*********Tar9**********
+Maximum accuracy and AUC for FE_tar_21_3
+                  Av. acc.         Av. auc.
+Softmax           84.06              -- 
+============================================
+
+
