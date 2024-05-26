@@ -16,6 +16,9 @@ A. K. Sharma and N. K. Verma, "Quick Learning Mechanism With Cross-Domain Adapta
 Code for benchmark methods, used for comparison
 
 DNN: https://github.com/ArabelaTso/DeepFD
+
 DANN: https://github.com/NaJaeMin92/pytorch-DANN
+
 DTL: https://github.com/Xiaohan-Chen/transfer-learning-fault-diagnosis-pytorch
+
 DAFD: https://github.com/zggg1p/A-Domain-Adaption-Transfer-Learning-Bearing-Fault-Diagnosis-Model-Based-on-Wide-Convolution-Deep-Neu
